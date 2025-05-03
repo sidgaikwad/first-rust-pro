@@ -12,6 +12,9 @@ fn datatypes() {
 
     println!("the value of x is {}", x)
 
+    let y = String::from("this is true");
+    println!("the value of y is {}", y);
+
 }
 
 
