@@ -10,7 +10,7 @@ fn datatypes() {
 
     let x: &str = "this is false";
 
-    println!("the value of x is {}", x)
+    println!("the value of x is {}", x);
 
     let y = String::from("this is true");
     println!("the value of y is {}", y);
