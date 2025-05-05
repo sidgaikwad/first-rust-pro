@@ -15,6 +15,9 @@ fn datatypes() {
     let y = String::from("this is true");
     println!("the value of y is {}", y);
 
+    let x: tup = (5, "this is false", 5.0);
+    println!("the value of x is {:?}", x); 
+
 }
 
 
