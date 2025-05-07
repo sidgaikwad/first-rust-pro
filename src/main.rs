@@ -18,6 +18,9 @@ fn datatypes() {
     let x: tup = (5, "this is false", 5.0);
     println!("the value of x is {:?}", x); 
 
+    let w: [i32; 5] = [1, 2, 3, 4, 5];
+    println!("the value of w is {:?}", w);
+
 }
 
 
