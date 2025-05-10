@@ -21,6 +21,14 @@ fn datatypes() {
     let w: [i32; 5] = [1, 2, 3, 4, 5];
     println!("the value of w is {:?}", w);
 
+    let zs: [i32; 5] = [1; 5];
+    println!("the value of zs is {:?}", zs);
+    let mut i = 0;
+    while i < 5 {
+        println!("the value of zs[{}] is {}", i, zs[i]);
+        i += 1;
+    }
+
 }
 
 
